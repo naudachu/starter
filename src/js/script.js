@@ -1,0 +1,1 @@
+console.log("Hey, first script is here!");
