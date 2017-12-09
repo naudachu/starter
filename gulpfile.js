@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 
 var paths = {
   public: './public/',
-  data: './src/_data/',
+  data: './src/_data/'
 };
 
 gulp.task('copyjs', function(){
@@ -51,8 +51,8 @@ gulp.task('browser-sync', ['sass', 'pug', 'copyjs'], function () {
 gulp.task('sass', function () {
   return gulp.src(['src/**/*.sass', 'src/**/*.scss'])
     .pipe(sass({
-      includePaths: ['src/**/*.sass', 'src/**/*.scss']
-      //outputStyle: 'compressed'
+      includePaths: ['src/**/*.sass', 'src/**/*.scss'],
+      outputStyle: 'compressed'
     }))
     .on('error', sass.logError)
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
@@ -65,8 +65,8 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(paths.sass + '**/*.scss', ['sass']);
-  gulp.watch(paths.sass + '**/*.sass', ['sass']);
+  gulp.watch('./src/**/*.sass', ['sass']);
+  gulp.watch('./src/**/*.scss', ['sass']);
   gulp.watch('./src/**/*.pug', ['rebuild']);
   gulp.watch('./src/**/*.js', ['copyjs']);
 });
@@ -74,3 +74,4 @@ gulp.task('watch', function () {
 gulp.task('build', ['sass', 'pug']);
 
 gulp.task('default', ['browser-sync', 'watch', 'copyjs']);
+//gulp.task('default', ['pug', 'sass']);
