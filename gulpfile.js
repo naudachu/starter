@@ -11,29 +11,17 @@ var gulp = require('gulp'),
   // copy = require('gulp-copy'),
   concat = require('gulp-concat');
 
-/*
- * Directories here
- */
 var paths = {
   public: './public/',
-  sass: './src/sass/',
-  css: './public/css/',
   data: './src/_data/',
 };
 
-/**
-* Copy JS files to Public directory
-**/
 gulp.task('copyjs', function(){
   gulp.src('src/**/*.js')
     .pipe(concat('script.js'))
     .pipe(gulp.dest('./public/js/'))
 })
 
-/**
- * Compile .pug files and pass in data from json file
- * matching file name. index.pug - index.pug.json
- */
 gulp.task('pug', function () {
   return gulp.src('./src/*.pug')
     .pipe(data(function (file) {
@@ -47,16 +35,10 @@ gulp.task('pug', function () {
     .pipe(gulp.dest(paths.public));
 });
 
-/**
- * Recompile .pug files and live reload the browser
- */
 gulp.task('rebuild', ['pug'], function () {
   browserSync.reload();
 });
 
-/**
- * Wait for pug and sass tasks, then launch the browser-sync Server
- */
 gulp.task('browser-sync', ['sass', 'pug', 'copyjs'], function () {
   browserSync({
     server: {
@@ -66,33 +48,22 @@ gulp.task('browser-sync', ['sass', 'pug', 'copyjs'], function () {
   });
 });
 
-/**
- * Compile .scss files into public css directory With autoprefixer no
- * need for vendor prefixes
- * then live reload the browser.
- */
 gulp.task('sass', function () {
-  return gulp.src(paths.sass + '*.scss')
+  return gulp.src(['src/**/*.sass', 'src/**/*.scss'])
     .pipe(sass({
-      includePaths: [paths.sass],
-      outputStyle: 'compressed'
+      includePaths: ['src/**/*.sass', 'src/**/*.scss']
+      //outputStyle: 'compressed'
     }))
     .on('error', sass.logError)
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
     }))
-    .pipe(gulp.dest(paths.css))
+    .pipe(gulp.dest('public'))
     .pipe(browserSync.reload({
       stream: true
     }));
 });
 
-/**
- * Watch scss files for changes & recompile
- * Watch .pug files run pug-rebuild
- * copy js files
- * then reload BrowserSync
- */
 gulp.task('watch', function () {
   gulp.watch(paths.sass + '**/*.scss', ['sass']);
   gulp.watch(paths.sass + '**/*.sass', ['sass']);
@@ -100,12 +71,6 @@ gulp.task('watch', function () {
   gulp.watch('./src/**/*.js', ['copyjs']);
 });
 
-// Build task compile sass and pug,
 gulp.task('build', ['sass', 'pug']);
 
-/**
- * Default task, running just `gulp` will compile the sass,
- * compile the jekyll site, launch BrowserSync then watch
- * files for changes
- */
 gulp.task('default', ['browser-sync', 'watch', 'copyjs']);

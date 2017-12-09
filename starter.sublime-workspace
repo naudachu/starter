@@ -1,0 +1,464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"js",
+				"js"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"th",
+				"th\ttext-height"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"json",
+				"json"
+			],
+			[
+				"is",
+				"isParent"
+			],
+			[
+				"parent",
+				"parentDisable"
+			],
+			[
+				"_en",
+				"_enable"
+			],
+			[
+				"co",
+				"coffeeMachine1"
+			],
+			[
+				"_",
+				"_enabled"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"eye",
+				"eyes"
+			],
+			[
+				"pas",
+				"password-confirmation"
+			],
+			[
+				"password",
+				"password"
+			],
+			[
+				"btn",
+				"btnCount"
+			],
+			[
+				"click",
+				"clickedBtn"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"width",
+				"width-m"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"gulp",
+				"gulp-sass"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"pakca",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"package install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 531.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/data/prj/starter"
+	],
+	"file_history":
+	[
+		"/data/prj/starter/gulpfile.js",
+		"/home/naudachu/Desktop/api.json",
+		"/home/naudachu/Program-Files/Rack/Rack.sh",
+		"/home/naudachu/Desktop/stream.sh",
+		"/home/naudachu/Desktop/out.mp4",
+		"/data/prj/trello-app/index.html",
+		"/data/prj/trello-app/server.js",
+		"/data/prj/trello-app/package-lock.json",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/assets/js/ace/mode-bro.js",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/assets/js/app.js",
+		"/home/naudachu/Desktop/docs.md",
+		"/data/prj/filmit_frontend/app/main.js",
+		"/data/prj/starter/.gitignore",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/repo/organization/team.md",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/repo/bpc/bpc-home-page.md",
+		"/home/naudachu/Desktop/amani-1",
+		"/home/naudachu/Desktop/amani-2",
+		"/home/naudachu/Desktop/amani-3",
+		"/home/naudachu/Desktop/3",
+		"/home/naudachu/Desktop/2",
+		"/home/naudachu/Desktop/1",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/repo/projects/imho/imho-main-page.md",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/repo/projects/filmit/filmit-main-page.md",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/repo/projects/giggle/giggle-info.md",
+		"/initrd.img.old",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/assets/js/vendor.js",
+		"/run/user/1000/gvfs/sftp:host=146.185.161.48,user=naudachu/home/naudachu/trm-wiki/assets/browserconfig.xml",
+		"/home/naudachu/Program-Files/setup.sh",
+		"/home/naudachu/Program-Files/readme.txt",
+		"/home/naudachu/Desktop/9841772-12c78a9426af9102e7c3fe40652c96f3c793aa9d/stream_to_youtube.sh",
+		"/data/prj/filmit_web/src/index.js",
+		"/data/prj/filmit_web/package.json",
+		"/home/naudachu/Desktop/Shotwell Import Log.txt",
+		"/home/naudachu/Desktop/tbh.md",
+		"/home/naudachu/Desktop/Untitled Document",
+		"/data/prj/starter/.git/config",
+		"/data/prj/starter/.git/index",
+		"/data/prj/starter/.git/HEAD",
+		"/data/prj/starter_old/src/sass/style.sass",
+		"/data/prj/starter_old/public/css/style.css",
+		"/data/prj/starter/package.json",
+		"/data/prj/starter_old/gulpfile.js",
+		"/data/prj/starter_old/package.json",
+		"/data/prj/starter/package.json.273503520",
+		"/data/prj/starter/src/js/script2.js",
+		"/data/prj/starter/public/js/script.js",
+		"/data/prj/starter/src/js/script.js",
+		"/data/prj/learn-APIs/package.json",
+		"/data/prj/learn-APIs/npm-debug.log",
+		"/data/prj/learn-APIs/src/js/script.js",
+		"/data/prj/learn-APIs/src/_data/index.pug.json",
+		"/data/prj/learn-APIs/public/index.html",
+		"/data/prj/learn-APIs/src/sass/includes/_base.sass",
+		"/data/prj/learn-APIs/src/sass/style.scss",
+		"/data/prj/learn-APIs/LICENSE",
+		"/home/naudachu/Downloads/noisered.wav",
+		"/data/prj/learn-APIs/README.md",
+		"/data/prj/learn-APIs/src/_partials/header.pug",
+		"/data/prj/learn-APIs/src/_layouts/home.pug",
+		"/data/prj/learn-APIs/src/index.pug",
+		"/data/prj/learn-APIs/gulp-pug-sass-seed/gulpfile.js",
+		"/data/prj/learn-APIs/index.html",
+		"/data/prj/model-lib/card/app.js",
+		"/data/prj/forget-password/app/hide-show.js",
+		"/data/prj/JavaScript30/01 - JavaScript Drum Kit/index.html",
+		"/data/prj/JavaScript30/01 - JavaScript Drum Kit/result/index.html",
+		"/data/prj/model-lib/index.html",
+		"/data/prj/model-lib/card/card.css.map",
+		"/data/prj/model-lib/index.pug",
+		"/data/prj/model-lib/server.js",
+		"/data/prj/lib/index.pug",
+		"/data/projects/confled-card/card.js",
+		"/data/projects/confled/package.json",
+		"/data/projects/confled/src/Components/App/App.js",
+		"/data/projects/confled-card/Untitled Document",
+		"/data/projects/confled-card/card.html",
+		"/data/projects/confled-card/app/card.html",
+		"/home/naudachu/Desktop/device_information.txt",
+		"/data/projects/confled-card/app/normalize.css",
+		"/data/projects/confled-card/app/card.css",
+		"/data/projects/confled/src/index.css",
+		"/data/projects/confled/src/index.js",
+		"/home/naudachu/npm-debug.log",
+		"/data/projects/confyoled/src/Components/comp.js",
+		"/data/projects/confyoled/src/Components/App.js",
+		"/data/projects/confyoled/src/index.js",
+		"/data/projects/confyoled/package.json",
+		"/data/projects/confyoled/cyl-client/src/Components/App.js",
+		"/data/projects/confyoled/cyl-client/src/index.js",
+		"/data/projects/confyoled/cyl-client/src/Components/mdl/DataTable/Table.js",
+		"/data/projects/confyoled/cyl-client/src/Components/mdl/DataTable/index.js",
+		"/data/projects/confyoled/cyl-client/node_modules/babel-plugin-dynamic-import-node/.babelrc",
+		"/data/projects/confyoled/cyl-client/node_modules/eslint-plugin-jsx-a11y/.babelrc",
+		"/data/projects/confyoled/server/app.js",
+		"/home/naudachu/sandbox/1.log",
+		"/home/naudachu/sandbox/screen.log",
+		"/data/projects/confyoled/client/confyoled/src/index.js",
+		"/data/projects/confyoled/client/confyoled/src/Components/App.js",
+		"/data/projects/confyoled/client/confyoled/src/App.js",
+		"/data/projects/confyoled/server/views/_layout.pug",
+		"/data/projects/confyoled/server/data.json",
+		"/data/projects/confyoled/server/views/includes/links.pug",
+		"/data/projects/confyoled/server/views/includes/menu.pug",
+		"/data/projects/confyoled/client/client.js",
+		"/data/projects/confyoled/server/views/models.pug",
+		"/data/projects/confyoled/server/views/links.pug",
+		"/data/projects/confyoled/server/views/menu.pug",
+		"/data/projects/confyoled/server/views/index.pug",
+		"/data/projects/confyoled/app.js",
+		"/data/projects/confyoled/Views/index.pug",
+		"/data/projects/confyoled/index.pug",
+		"/data/projects/confyoled/data.json",
+		"/home/naudachu/Documents/data:docs/wrk/russianmob/KenyaMoore/posts/2",
+		"/home/naudachu/Documents/data:docs/wrk/russianmob/KenyaMoore/posts/1",
+		"/home/naudachu/Documents/data:docs/wrk/russianmob/KenyaMoore/posts/Untitled Document",
+		"/home/naudachu/Downloads/KM/serverkm/app.js",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/.git/logs/refs/heads/master",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/.git/description",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/.gitignore",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/README.md",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/src/views/mixins/modelCard.pug",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/src/views/mixins/options.pug",
+		"/home/naudachu/Documents/data:edu/frontend/projects/confyoled/app.js",
+		"/home/naudachu/nginx-1.13.1/conf/fastcgi.conf",
+		"/home/naudachu/nginx-1.13.1/configure",
+		"/home/naudachu/nginx-1.13.1/conf/nginx.conf",
+		"/usr/local/nginx/conf/nginx.conf",
+		"/home/naudachu/Desktop/bby_json_v6.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "starter.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".babel",
+				"cyl-client/node_modules/babel-plugin-dynamic-import-node/.babelrc"
+			],
+			[
+				".babelrc",
+				"cyl-client/node_modules/eslint-plugin-jsx-a11y/.babelrc"
+			],
+			[
+				"babelrc",
+				"cyl-client/node_modules/eslint-plugin-jsx-a11y/.babelrc"
+			],
+			[
+				"babel",
+				"cyl-client/node_modules/babel-plugin-dynamic-import-node/.babelrc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 354.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
